@@ -194,4 +194,7 @@
       "include": "build/installer.nsh"
     }
   }
+  "scripts": {
+    "build": "[my-framework] build --output public"
+  }
 }
