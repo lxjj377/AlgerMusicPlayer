@@ -16,7 +16,7 @@
     "dev": "electron-vite dev",
     "dev:web": "vite dev",
     "build": "electron-vite build",
-    "build:web": "vite build",   // ✅ 新增这一行，给 Vercel 用
+    "build:web": "vite build",  
     "postinstall": "electron-builder install-app-deps",
     "build:unpack": "npm run build && electron-builder --dir",
     "build:win": "npm run build && electron-builder --win",
